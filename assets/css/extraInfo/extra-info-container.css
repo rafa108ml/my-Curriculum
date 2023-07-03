@@ -1,0 +1,6 @@
+.extra__info__container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-content: center;
+}

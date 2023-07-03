@@ -2,6 +2,7 @@
     display: flex;
     width: 4.5rem;
     height: 4.5rem;
+    margin: 1rem;
 }
 
 .logo:hover{
@@ -15,12 +16,14 @@
         align-items: center;
         align-content: center;
         flex-wrap: wrap;
+        margin: 1rem auto;
     }
 }
 
 /*todo lo demas*/
 @media screen and (min-width:720px) {
-    .tlogo{
+    .logo{
         justify-content: space-between;
+        margin: 1rem 2rem;
     }
 }
