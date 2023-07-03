@@ -1,0 +1,14 @@
+.sobre__mi{
+    color: azure;
+    font-size: calc(2vw);
+    margin: var(--margin-left-banner-items);
+    min-width: 200px;
+}
+
+@media screen and (min-width:1000px) {
+    .sobre__mi{
+        font-size: calc(1.6vw);
+        width: 800px;
+        margin-top: 2rem;
+    }
+}

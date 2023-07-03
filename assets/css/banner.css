@@ -1,0 +1,7 @@
+.banner{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: rgb(21, 21, 21);
+}

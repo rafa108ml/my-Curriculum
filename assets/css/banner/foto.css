@@ -1,0 +1,14 @@
+.foto{
+    margin: 2rem;
+    margin-right: var(--photo-right-margin);
+    border-radius: 100%;
+    height: calc(5vw * 3.5);   
+    min-height: 6rem;
+}
+
+@media screen and (max-width:400px) {
+    .foto{
+    margin-left: 0.5rem;
+    }
+}
+

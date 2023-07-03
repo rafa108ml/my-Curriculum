@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+/*telefonos*/
+@media screen and (min-width:0) {
+    .logo{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/*todo lo demas*/
+@media screen and (min-width:720px) {
+    .tlogo{
+        justify-content: space-between;
+    }
+}

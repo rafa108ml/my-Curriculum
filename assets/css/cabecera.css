@@ -1,0 +1,12 @@
+.cabecera{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem;
+}
+
+@media screen and (min-width: 740px) {
+    .cabecera{
+    display: flex;
+    }
+}
