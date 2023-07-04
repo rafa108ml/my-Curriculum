@@ -1,0 +1,16 @@
+.skill__item{
+    text-align: center;
+    margin: 3rem;
+}
+
+@media screen and (min-width: 0){
+    .skill__item{
+    margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .skill__item{
+    margin: calc(6vw);
+    }
+}

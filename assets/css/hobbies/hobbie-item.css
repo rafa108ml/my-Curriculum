@@ -1,0 +1,16 @@
+.hobbie__item{
+    text-align: center;
+    margin: 3rem;
+}
+
+@media screen and (min-width: 0){
+    .hobbie__item{
+    margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .hobbie__item{
+    margin: calc(6vw);
+    }
+}
