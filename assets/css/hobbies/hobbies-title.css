@@ -1,11 +1,24 @@
 .hobbies__title{
     color: var(--negro-subtitulos);
     font-family: 'Barlow', sans-serif;
-    font-size: calc(5vw);
+    font-size: calc(3vw);
     font-style: italic;
     /*con estos 3 logro centrarlo sin text-align center en el container general*/
     margin: calc(5vw) auto;
-    margin-top: calc(10vw);
+    margin-top: calc(1vw);
+    margin-bottom: calc(1vw);
     width: max-content;
     display: block;
+}
+
+@media screen and (min-width:0px) {
+    .hobbies__title{
+        font-size: calc(5vw);
+    }
+}
+
+@media screen and (min-width:500px) {
+    .hobbies__title{
+        font-size: calc(3vw);
+    }
 }

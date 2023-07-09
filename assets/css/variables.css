@@ -1,8 +1,11 @@
 :root{
     --margin-left-banner-items:calc(.5vw + 1rem);
+    --margin-start:calc(2vw + 1rem);
     --photo-right-margin: calc(2vw);
     --gris-subtitulos: #999999;
     --negro-subtitulos: #3c3c3c;
-
+    --dark-banner-color: rgb(21, 21, 21);
+    --text-contrast-white: #e2e2e2;
+    
 
 }

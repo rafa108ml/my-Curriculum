@@ -1,0 +1,13 @@
+.titulo__profesional{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: calc(10vw);
+    align-content: center;
+    font-size: calc(4vw);
+    font-style: normal;
+    color: var(--text-contrast-white);
+    background-color: var(--dark-banner-color);
+    padding-left: var(--margin-start);
+
+}
