@@ -1,0 +1,17 @@
+.contacto__descripcion{
+    color: var(--text-contrast-white);
+    font-family: Barlow, sans-serif;
+    font-weight: 200;
+    font-size: 2vw;
+    width: 100%;
+}
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:840px) {
+    .contacto__descripcion{
+        font-size: 1.5vw;
+    }    
+}

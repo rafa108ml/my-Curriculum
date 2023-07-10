@@ -1,0 +1,25 @@
+.contact__input{
+    background-color: var(--negro-subtitulos);
+    border-radius: 0.3rem;
+    width: 30vw;
+    color: antiquewhite;
+    
+}
+
+@media screen and (min-width:0) {
+    .contact__input{
+        padding: 1vw;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:840px) {
+    .contact__input{
+        padding: 0.5rem;
+        font-size: 1.5vw;
+    }
+}
+
+#asunto{
+ height: 3rem;
+}

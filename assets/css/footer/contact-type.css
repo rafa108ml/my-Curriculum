@@ -1,0 +1,17 @@
+.contact__type{
+    font-family: Barlow,sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+}
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:840px) {
+    .contact__type{
+        font-size: 1.5vw;
+    }    
+}
