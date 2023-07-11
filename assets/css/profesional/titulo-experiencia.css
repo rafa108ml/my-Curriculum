@@ -1,4 +1,7 @@
 .titulo__experiencia{
-    font-size: 3vw;
-    margin-left: var(--margin-start);
+    font-size: 3.5vw;
+    font-family: Barlow, sans-serif;
+    font-style: italic;
+    color: var(--negro-subtitulos);
+    margin-bottom: 1vw;
 }

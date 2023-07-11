@@ -1,0 +1,7 @@
+.textos__experiencia{
+    display:flex;
+    margin-left: var(--margin-start);
+    margin-right: var(--margin-start);
+    flex-direction: column;
+    width: 50%;
+}
