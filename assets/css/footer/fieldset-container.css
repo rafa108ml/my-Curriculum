@@ -6,7 +6,9 @@
 
 @media screen and (min-width:0) {
     .fieldset__container{
-        margin-left: 10vw;
+        padding-top: 1vw;
+        padding-left: 0;
+        margin: 0;
     }
 }
 

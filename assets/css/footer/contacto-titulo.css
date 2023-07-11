@@ -1,12 +1,12 @@
 .contacto__title{
     color: var(--text-contrast-white);
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     font-size: 3vw;
 }
 
 @media screen and (min-width:0) {
-    
+
 }
 
 @media screen and (min-width:840px) {

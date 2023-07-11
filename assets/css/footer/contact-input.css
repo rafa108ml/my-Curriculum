@@ -3,6 +3,8 @@
     border-radius: 0.3rem;
     width: 30vw;
     color: antiquewhite;
+    border-style: solid;
+    border: none;
     
 }
 
@@ -11,6 +13,10 @@
         padding: 1vw;
         font-size: 1.5vw;
     }
+
+    #asunto{
+        height: 2rem;
+       }
 }
 
 @media screen and (min-width:840px) {
@@ -18,8 +24,9 @@
         padding: 0.5rem;
         font-size: 1.5vw;
     }
+
+    #asunto{
+        height: 3rem;
+       }
 }
 
-#asunto{
- height: 3rem;
-}

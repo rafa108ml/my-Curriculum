@@ -1,14 +1,12 @@
 .formulario__container{
     color: var(--text-contrast-white);
     padding-left: 1rem;
-    padding-bottom: 1rem;
     width: 25%;
 }
 
 @media screen and (min-width:0) {
     .formulario__container{
-        display: flex;
-        width: 50%;
+        width: 80%;
     }
 }
 @media screen and (min-width:840px) {

@@ -1,0 +1,7 @@
+.branding__leyenda{
+    font-family: Barlow, sans-serif;
+    font-weight: 200;
+    font-size: 1.5vw;
+    margin: 1rem;
+    color: var(--text-contrast-white);
+}
