@@ -98,17 +98,17 @@
             <img src="./assets/imagenes/logo.png" alt="logo personal" class="logo">
             <nav class="menu">
                 <ul class="top__menu__list">
-                    <li class="menu__item"><a href="#" class="menu__link">Sobre mi</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Hobbies</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Formación</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Proyectos</a></li>
+                    <li class="menu__item"><a href="#sobremi-contenedor" class="menu__link">Sobre mi</a></li>
+                    <li class="menu__item"><a href="#skills-contenedor" class="menu__link">Skills</a></li>
+                    <li class="menu__item"><a href="#hobbies-contenedor" class="menu__link">Hobbies</a></li>
+                    <li class="menu__item"><a href="#contenedor-academico" class="menu__link">Formación</a></li>
+                    <li class="menu__item"><a href="#experiencia-contenedor" class="menu__link">Experiencia</a></li>
                 </ul>
             </nav>
         </header>
     </header>
 
-    <section class="banner">
+    <section class="banner" id="sobremi-contenedor">
         <div class="Titulo__desc">
             <h2 class="titulo__intro">Sup Doge, I'm Rafael</h2>
             <p class="sobre__mi">Me apasiona el Diseño, el Arte, la informatica y la cultura. <br>
@@ -129,7 +129,8 @@
 
     </section>
 
-    <section class="skills__container">
+    <!-- el id se lo agregamos para poder referirlo en los vinculos de la lista de cabecera-->
+    <section class="skills__container" id="skills-contenedor">
         <h2 class="skills__title">
             Skills
         </h2>
@@ -160,7 +161,7 @@
         </nav>
     </section>
 
-    <section class="hobbies__container">
+    <section class="hobbies__container" id="hobbies-contenedor">
         <h2 class="hobbies__title">
             Hobbies
         </h2>
@@ -186,7 +187,7 @@
         </nav>
     </section>
 
-    <section class="academica__container">
+    <section class="academica__container" id="contenedor-academico">
         <h2 class="titulo__academico">Formacion academica</h2>
         <nav>
             <ul class="lista__academica">
@@ -208,7 +209,7 @@
         </nav>
     </section>
 
-    <section class="experiencia__profesional">
+    <section class="experiencia__profesional" id="experiencia-contenedor">
         <h2 class="titulo__profesional">Experiencia Profesional</h2>
         <nav>
             <ul class="lista__experiencia">
@@ -296,6 +297,11 @@
         <section class="branding__container">
             <img src="./assets/imagenes/logo.png" alt="branding" class="bottom__logo" >
             <h2 class="branding__leyenda">2023</h2>
+            
+           
+            <a href="#" class="branding__leyenda" style="text-decoration: none;">Volver arriba </a>
+            <a href="#" class="branding__leyenda" style="text-decoration: none;">descargar curriculum</a>
+         
         </section>
         
     </footer>

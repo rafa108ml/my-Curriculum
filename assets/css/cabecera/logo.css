@@ -3,10 +3,12 @@
     width: 4.5rem;
     height: 4.5rem;
     margin: 1rem;
+    transition: 0.5s;
 }
 
 .logo:hover{
     cursor: pointer;
+    scale: 1.1;
 }
 
 /*telefonos*/
